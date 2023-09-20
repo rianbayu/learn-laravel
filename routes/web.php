@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Users
+Route::get('/beranda', function () {
+    return view('content/beranda-content');
 });
 
-Route::get('/beranda', function () {
-    return view('beranda');
-});
+Route::get('/beranda', [DashboardController::class, 'index'])->name('beranda');
+
