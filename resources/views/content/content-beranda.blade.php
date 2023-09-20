@@ -5,11 +5,11 @@
         Ini isi Header Beranda
     </div>
 @endsection
-{{-- @section('content')
+@section('content')
     <div>
         Ini isi content Beranda
     </div>
-@endsection --}}
+@endsection
 @section('footer')
     <div>
         Ini isi Footer Beranda
